@@ -1,0 +1,19 @@
+
+CREATE DATABASE  fitzonedb;
+
+
+USE fitzonedb;
+
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    role ENUM('Admin', 'Staff') NOT NULL
+);
+
+
+INSERT INTO users (email, password, role) VALUES
+('admin@fitzone.com', 'admin123', 'Admin'),
+('staff@fitzone.com', 'staff123', 'Staff');

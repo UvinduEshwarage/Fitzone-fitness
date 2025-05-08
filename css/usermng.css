@@ -1,0 +1,109 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.dashboard-header .subtext {
+  font-size: 1.1rem;
+  color: #777;
+}
+
+/* Table styles */
+.dashboard-cards table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.dashboard-cards table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+.dashboard-cards th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.dashboard-cards th {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.dashboard-cards td {
+  background-color: #f9f9f9;
+}
+
+.dashboard-cards a {
+  color: #007bff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.dashboard-cards a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Table row hover effect */
+.dashboard-cards tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Empty table message */
+.dashboard-cards p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .dashboard {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .dashboard-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .dashboard-header .subtext {
+    font-size: 1rem;
+  }
+
+  .dashboard-cards table,
+  th,
+  td {
+    font-size: 0.9rem;
+  }
+
+  .dashboard-cards td {
+    padding: 8px;
+  }
+}

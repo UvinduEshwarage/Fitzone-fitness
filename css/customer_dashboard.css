@@ -1,0 +1,126 @@
+/* Main layout for customer dashboard */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header style */
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.dashboard-header p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* Membership details section */
+.dashboard-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.membership-details,
+.payment-status {
+  width: 48%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.membership-details h2,
+.payment-status h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.info-item {
+  margin-bottom: 10px;
+}
+
+.info-item span {
+  font-weight: bold;
+  color: #555;
+}
+
+.info-item p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.payment-info {
+  margin-bottom: 10px;
+}
+
+.payment-info span {
+  font-weight: bold;
+}
+
+.payment-info p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Payment action button */
+.payment-action {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.do-payment-btn {
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.do-payment-btn:hover {
+  background-color: #218838;
+}
+
+/* Logout button */
+.logout-action {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logout-btn {
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+/* Footer style */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1rem;
+  color: #555;
+}

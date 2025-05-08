@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Hero Section */
+.page-hero {
+  background: url("../images/joinbig.jpg") center center/cover no-repeat;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.page-hero .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 60px 20px;
+}
+
+.page-hero h2 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.page-hero p {
+  color: #ddd;
+  font-size: 18px;
+}
+
+/* Form Container */
+.form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+/* Form Heading */
+.join-form-section h3 {
+  font-size: 28px;
+  color: #1e1e1e;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Form Styles */
+.join-form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.join-form-section label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #444;
+}
+
+.join-form-section input,
+.join-form-section select {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease;
+}
+
+.join-form-section input:focus,
+.join-form-section select:focus {
+  border-color: #4caf50;
+  outline: none;
+  background-color: #fff;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Response Message */
+.join-form-section p {
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .form-container {
+    padding: 20px;
+  }
+
+  .page-hero h2 {
+    font-size: 28px;
+  }
+
+  .page-hero p {
+    font-size: 16px;
+  }
+}

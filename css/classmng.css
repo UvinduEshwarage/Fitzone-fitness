@@ -1,0 +1,70 @@
+.classmng-container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.classmng-header h1 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 0.5rem;
+}
+
+.subtext {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.class-actions {
+    margin-bottom: 1rem;
+}
+
+.add-class-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.add-class-btn:hover {
+    background-color: #0056b3;
+}
+
+.class-table-section {
+    overflow-x: auto;
+}
+
+.class-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.class-table th,
+.class-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.class-table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.edit-btn,
+.delete-btn {
+    margin-right: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.edit-btn {
+    color: #17a2b8;
+}
+
+.delete-btn {
+    color: #dc3545;
+}

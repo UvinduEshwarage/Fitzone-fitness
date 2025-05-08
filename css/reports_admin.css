@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+/* Report Section */
+.report-section {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.report-section p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.report-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.report-form label {
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.report-form input,
+.report-form select,
+.report-form textarea {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.report-form input:focus,
+.report-form select:focus,
+.report-form textarea:focus {
+  border-color: #4caf50;
+}
+
+.report-form textarea {
+  resize: vertical;
+}
+
+/* Button Styles */
+.btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .report-section {
+    padding: 15px;
+  }
+
+  .report-form input,
+  .report-form select,
+  .report-form textarea {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .btn {
+    padding: 12px 25px;
+  }
+}

@@ -1,0 +1,41 @@
+.management-section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.management-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.search-form input {
+    padding: 0.5rem;
+    width: 250px;
+}
+
+.member-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.member-table th, .member-table td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.btn.small {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+}
+
+.btn.danger {
+    background-color: #e74c3c;
+    color: #fff;
+}
